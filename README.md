@@ -42,7 +42,7 @@ Tecnólogo em Análise e Desenvolvimento de Sistemas pela **Universidade Feevale
 
 ---
 
-## Projeto em destaque
+## Projetos em destaque
 
 ### [EstoqueApp](https://github.com/Bitenm/EstoqueApp)
 
@@ -57,6 +57,18 @@ Aplicativo Android nativo em Java, criado como projeto de demonstração de arqu
 ![Retrofit](https://img.shields.io/badge/Retrofit-48B983?style=flat-square)
 ![Room](https://img.shields.io/badge/Room-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![Material Design](https://img.shields.io/badge/Material_Design-757575?style=flat-square&logo=materialdesign&logoColor=white)
+
+### [CampoMinado](https://github.com/Bitenm/CampoMinado)
+
+Campo Minado em Java, jogável no terminal, com suíte de testes unitários cobrindo regras de jogo, exceções e I/O de console.
+
+- Abertura em cascata, marcação de bombas e checagem de vitória/derrota
+- View de console desacoplada do modelo via injeção de `Scanner`, testável sem teclado real
+- Testes JUnit 5 simulando `System.in`/`System.out` pra validar o fluxo do jogo de ponta a ponta
+- Exceções de domínio customizadas (`ExplosionException`, `SairException`) pro controle do jogo
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
 
 ---
 
