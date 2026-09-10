@@ -70,6 +70,17 @@ Campo Minado em Java, jogável no terminal, com suíte de testes unitários cobr
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
 
+### [SimpleBattleship](https://github.com/Bitenm/SimpleBattleship)
+
+Exercício final do livro *Head First Java*, jogo de batalha naval em Java no terminal — implementado a partir da estrutura base do livro, com bugs corrigidos e testes escritos por conta própria pra praticar JUnit.
+
+- Posicionamento das embarcações calculado sobre um grid representado como array 1D (linha/coluna via divisão e resto)
+- Bugs de lógica da versão original identificados e corrigidos (destruição de embarcação não removia da lista; leitura de input quebrava fora de uso interativo)
+- Suíte JUnit 5 cobrindo regras de jogo, caso de borda (grid totalmente ocupado) e I/O via redirecionamento de `System.in`/`System.out`
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
+
 ---
 
 ## Contato
