@@ -60,15 +60,15 @@ Aplicativo Android nativo em Java, criado como projeto de demonstração de arqu
 
 ### [CampoMinado](https://github.com/Bitenm/CampoMinado)
 
-Campo Minado em Java, jogável no terminal, com suíte de testes unitários cobrindo regras de jogo, exceções e I/O de console.
+Campo Minado desktop em Java com interface gráfica em Swing, desenvolvido como prática de orientação a objetos, interfaces funcionais, expressões lambda e padrão Observer.
 
-- Abertura em cascata, marcação de bombas e checagem de vitória/derrota
-- View de console desacoplada do modelo via injeção de `Scanner`, testável sem teclado real
-- Testes JUnit 5 simulando `System.in`/`System.out` pra validar o fluxo do jogo de ponta a ponta
-- Exceções de domínio customizadas (`ExplosionException`, `SairException`) pro controle do jogo
+- Abertura em cascata, marcação de possíveis minas e checagem de vitória/derrota
+- Interface Swing com grade de campos, botão de reinício, cronômetro e contador de marcações
+- Comunicação entre modelo e interface com o padrão Observer
+- Uso de `Consumer` e lambdas para registrar e reagir a eventos dos campos e do tabuleiro
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
+![Swing](https://img.shields.io/badge/Java_Swing-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
 ### [SimpleBattleship](https://github.com/Bitenm/SimpleBattleship)
 
