@@ -42,7 +42,7 @@ Tecnólogo em Análise e Desenvolvimento de Sistemas pela **Universidade Feevale
 
 ---
 
-## Projetos em destaque
+## Projetos de Estudo
 
 ### [EstoqueApp](https://github.com/Bitenm/EstoqueApp)
 
